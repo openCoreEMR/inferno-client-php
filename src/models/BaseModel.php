@@ -8,6 +8,18 @@ namespace OpenCoreEmr\InfernoClient\Models;
 abstract class BaseModel
 {
     /**
+     * Constructor for the BaseModel
+     *
+     * This constructor is declared as final to prevent child classes from modifying
+     * its signature. Altering the signature would break the `new static()` call
+     * in the `fromArray()` method.
+     */
+    final public function __construct()
+    {
+
+    }
+
+    /**
      * Create a new model instance from an array of data
      *
      * @param array $data The data to populate the model with
