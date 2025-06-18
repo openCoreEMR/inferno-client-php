@@ -1,0 +1,17 @@
+{
+    "name": "open-core-emr/inferno-client",
+    "description": "A PHP Client for the Inferno FHIR Testing Framework API",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "OpenCoreEmr\\InfernoClient\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Michael A. Smith",
+            "email": "michael@opencoreemr.com"
+        }
+    ],
+    "require": {}
+}
