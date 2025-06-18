@@ -1,5 +1,23 @@
 <?php
 
+namespace OpenCoreEmr\InfernoClient;
+
+use OpenCoreEmr\InfernoClient\Models\Version;
+use OpenCoreEmr\InfernoClient\Models\Message;
+use OpenCoreEmr\InfernoClient\Models\PresetSummary;
+use OpenCoreEmr\InfernoClient\Models\Input;
+use OpenCoreEmr\InfernoClient\Models\SuiteOption;
+use OpenCoreEmr\InfernoClient\Models\RequestSummary;
+use OpenCoreEmr\InfernoClient\Models\Request;
+use OpenCoreEmr\InfernoClient\Models\Result;
+use OpenCoreEmr\InfernoClient\Models\Requirement;
+use OpenCoreEmr\InfernoClient\Models\Test;
+use OpenCoreEmr\InfernoClient\Models\TestGroup;
+use OpenCoreEmr\InfernoClient\Models\TestSuite;
+use OpenCoreEmr\InfernoClient\Models\TestRun;
+use OpenCoreEmr\InfernoClient\Models\TestSession;
+use OpenCoreEmr\InfernoClient\Models\SessionData;
+
 /**
  * Inferno API Client
  *

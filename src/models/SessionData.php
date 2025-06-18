@@ -1,6 +1,6 @@
 <?php
 
-require_once 'BaseModel.php';
+namespace OpenCoreEmr\InfernoClient\Models;
 
 /**
  * Represents a SessionData response from the Inferno API

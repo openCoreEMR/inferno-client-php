@@ -1,6 +1,6 @@
 <?php
 
-require_once 'BaseModel.php';
+namespace OpenCoreEmr\InfernoClient\Models;
 
 /**
  * Represents a PresetSummary response from the Inferno API

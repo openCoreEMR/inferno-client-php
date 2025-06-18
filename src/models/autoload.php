@@ -1,5 +1,7 @@
 <?php
 
+namespace OpenCoreEmr\InfernoClient\Models;
+
 /**
  * Autoload file for Inferno API models
  */

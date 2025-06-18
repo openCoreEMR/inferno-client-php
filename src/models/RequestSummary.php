@@ -1,5 +1,7 @@
 <?php
 
+namespace OpenCoreEmr\InfernoClient\Models;
+
 require_once 'BaseModel.php';
 require_once 'Message.php';
 

@@ -1,6 +1,6 @@
 <?php
 
-require_once 'BaseModel.php';
+namespace OpenCoreEmr\InfernoClient\Models;
 
 /**
  * Represents a Requirement response from the Inferno API

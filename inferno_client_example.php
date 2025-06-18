@@ -3,7 +3,9 @@
 /**
  * Example usage of the Inferno API client
  */
-require_once 'InfernoClient.php';
+require_once 'vendor/autoload.php';
+
+use OpenCoreEmr\InfernoClient\InfernoClient;
 
 // Create a new client instance
 $client = new InfernoClient(
